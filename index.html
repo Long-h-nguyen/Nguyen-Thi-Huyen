@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <!-- Lệnh chặn trình duyệt tự động đổi sang màu tối -->
     <meta name="color-scheme" content="only light">
-    <title>Xác Thực Thẻ Nhân Viên - Xuân Mai Urenco</title>
+    <title>Xác Thực Thẻ Nhân Viên - Nguyễn Thị Huyền | Xã Lương Sơn</title>
     <style>
         /* Ép buộc màu sắc gốc, chống Force Dark Mode trên Android/iOS */
         :root {
@@ -284,6 +284,48 @@
         .tariff-table td.left-align { text-align: left; font-weight: 600; padding-left: 6px; }
         .tariff-table .highlight { background-color: #E0F2FE !important; font-weight: 700; color: #0369A1 !important; }
 
+        .legal-source {
+            background-color: #EFF6FF !important;
+            border: 1px solid #BFDBFE !important;
+            border-radius: 9px;
+            padding: 9px 10px;
+            margin-bottom: 10px;
+            font-size: 10.5px;
+            color: #1E3A8A !important;
+            line-height: 1.45;
+        }
+        .legal-source strong { color: #0A2540 !important; }
+        .legal-note {
+            background-color: #FFF7ED !important;
+            border: 1px solid #FED7AA !important;
+            border-radius: 9px;
+            padding: 8px 10px;
+            margin-top: 8px;
+            font-size: 10px;
+            color: #9A3412 !important;
+            line-height: 1.4;
+        }
+        .tariff-table.compact { font-size: 10px; }
+        .tariff-table.compact th, .tariff-table.compact td {
+            padding: 6px 5px;
+            vertical-align: top;
+            line-height: 1.3;
+        }
+        .tariff-table.compact th:nth-child(1) { width: 55%; }
+        .tariff-table.compact th:nth-child(2) { width: 30%; }
+        .tariff-table.compact th:nth-child(3) { width: 15%; }
+        .tariff-table.compact td.price {
+            color: #0369A1 !important;
+            font-weight: 800;
+            text-align: right;
+        }
+        .legal-subtitle {
+            font-size: 11px;
+            color: #475569 !important;
+            margin: 8px 0 6px;
+            line-height: 1.4;
+        }
+
         /* Nút hành động CTA */
         .cta-group { display: flex; flex-direction: column; gap: 8px; margin-top: 12px; }
         .btn-cta {
@@ -349,7 +391,7 @@
             🪪 THẺ NHÂN VIÊN
         </button>
         <button class="tab-btn" onclick="switchTab('tab-legal', this)">
-            ⚖️ ĐƠN GIÁ UBND & QĐ
+            ⚖️ ĐƠN GIÁ HÒA BÌNH
         </button>
     </div>
 
@@ -400,7 +442,7 @@
             <!-- Xem nhanh Quyết định -->
             <div class="quick-doc-box">
                 <div style="font-size: 11px; font-weight: 700; color: #15803D !important; margin-bottom: 6px;">
-                    📄 Quyết Định Giao Việc Phường Chương Mỹ
+                    📄 Quyết Định Giao Việc Xã Lương Sơn
                 </div>
                 <a href="https://drive.google.com/file/d/1K1FPlQnhF8rbh3fOjaspR0cmbBEo285i/view?usp=drivesdk" target="_blank" class="btn-cta btn-open-drive" style="padding: 8px; font-size: 12px;">
                     👁️ Xem Bản Mộc Đỏ Đính Kèm
@@ -418,59 +460,96 @@
         </div>
     </div>
 
-    <!-- 5. TAB 2: ĐƠN GIÁ UBND HÀ NỘI ĐẦY ĐỦ 2026 - 2027 -->
+    <!-- 5. TAB 2: ĐƠN GIÁ THU GOM, VẬN CHUYỂN RÁC SINH HOẠT - HÒA BÌNH -->
     <div id="tab-legal" class="content-area">
         <div class="legal-box">
-            <div class="legal-title">📄 Đơn Giá QĐ 4996/QĐ-UBND Hà Nội</div>
-            <div class="legal-desc">Mức giá cụ thể dịch vụ thu gom, vận chuyển, xử lý rác thải sinh hoạt 2026 - 2027:</div>
+            <div class="legal-title">📄 GIÁ DỊCH VỤ THU GOM, VẬN CHUYỂN RÁC SINH HOẠT</div>
+            <div class="legal-desc">Mục 6: Dịch vụ thu gom, vận chuyển rác sinh hoạt được đầu tư bằng nguồn vốn NSNN.</div>
 
-            <table class="tariff-table">
+            <div class="legal-source">
+                <strong>Căn cứ văn bản:</strong><br>
+                Quyết định số <b>02/2017/QĐ-UBND</b> ngày <b>17/01/2017</b> của UBND tỉnh Hòa Bình; bảng dưới đây trích theo Mục 6 của bản scan được cung cấp. Các mức giá đã bao gồm các loại thuế và là <b>giá tối đa</b>.
+            </div>
+
+            <table class="tariff-table compact">
                 <thead>
                     <tr>
-                        <th rowspan="2">Đối tượng</th>
-                        <th colspan="2">Năm 2026 (đồng/người/tháng)</th>
-                        <th colspan="2">Năm 2027 (đồng/người/tháng)</th>
-                    </tr>
-                    <tr>
-                        <th>Quý I, II</th>
-                        <th>Quý III, IV</th>
-                        <th>Quý I, II</th>
-                        <th>Quý III, IV</th>
+                        <th>Đối tượng / dịch vụ</th>
+                        <th>Mức giá tối đa</th>
+                        <th>Đơn vị</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr class="highlight">
-                        <td class="left-align">Hộ tại PHƯỜNG</td>
-                        <td>10.000</td>
-                        <td>15.000</td>
-                        <td>21.000</td>
-                        <td>30.000</td>
+                        <td class="left-align">Hộ gia đình</td>
+                        <td class="price">7.000</td>
+                        <td>đồng/người/tháng</td>
                     </tr>
                     <tr>
-                        <td class="left-align">Hộ tại XÃ</td>
-                        <td>8.000</td>
-                        <td>10.000</td>
-                        <td>13.000</td>
-                        <td>17.000</td>
+                        <td class="left-align">Hộ kinh doanh buôn bán tại chợ hoặc kinh doanh tại nhà<br><span class="legal-subtitle">Áp dụng mức thu theo mức thuế môn bài phải nộp</span></td>
+                        <td class="price">100.000</td>
+                        <td>đồng/hộ</td>
                     </tr>
                     <tr>
-                        <td class="left-align">Kinh doanh, tổ chức</td>
-                        <td colspan="4"><b>1.175 đ/kg</b> x Khối lượng phát sinh</td>
+                        <td class="left-align">Trường học, nhà trẻ</td>
+                        <td class="price">100.000</td>
+                        <td>đồng/đơn vị/tháng</td>
+                    </tr>
+                    <tr>
+                        <td class="left-align">Doanh nghiệp, cơ quan hành chính sự nghiệp</td>
+                        <td class="price">100.000</td>
+                        <td>đồng/đơn vị/tháng</td>
+                    </tr>
+                    <tr>
+                        <td class="left-align">Khách sạn, nhà hàng kinh doanh ăn uống, điểm du lịch, resort<br><span class="legal-subtitle">Áp dụng mức thu theo mức thuế môn bài phải nộp</span></td>
+                        <td class="price">200.000<br><span class="legal-subtitle">hoặc 160.000</span></td>
+                        <td>đồng/đơn vị/tháng<br><span class="legal-subtitle">đồng/m³</span></td>
+                    </tr>
+                    <tr>
+                        <td class="left-align">Công trình xây dựng</td>
+                        <td class="price">150.000</td>
+                        <td>đồng/m³</td>
+                    </tr>
+                    <tr>
+                        <td class="left-align">Rác thải nguy hại<br><span class="legal-subtitle">Rác thải công nghiệp, y tế...</span></td>
+                        <td class="price">250.000</td>
+                        <td>đồng/m³</td>
+                    </tr>
+                    <tr>
+                        <td class="left-align">Vệ sinh tại các cảng Bích Hạ – tàu, thuyền, ca nô phục vụ kinh doanh du lịch dưới 45 chỗ</td>
+                        <td class="price">20.000</td>
+                        <td>đồng/tháng</td>
+                    </tr>
+                    <tr>
+                        <td class="left-align">Vệ sinh tại các cảng Bích Hạ – tàu, thuyền, ca nô phục vụ kinh doanh du lịch từ 45 chỗ trở lên</td>
+                        <td class="price">30.000</td>
+                        <td>đồng/tháng</td>
+                    </tr>
+                    <tr>
+                        <td class="left-align">Tàu thuyền chở hàng, trọng tải dưới 35 tấn</td>
+                        <td class="price">30.000</td>
+                        <td>đồng/tháng</td>
+                    </tr>
+                    <tr>
+                        <td class="left-align">Tàu thuyền chở hàng, trọng tải từ 35 tấn trở lên</td>
+                        <td class="price">40.000</td>
+                        <td>đồng/tháng</td>
                     </tr>
                 </tbody>
             </table>
+
+            <div class="legal-note">
+                <b>Lưu ý nguồn văn bản:</b> tên tệp PDF đính kèm có chữ “Phú Thọ”, nhưng nội dung bản scan thể hiện UBND tỉnh Hòa Bình và Quyết định số 02/2017/QĐ-UBND. File này hiển thị theo đúng nội dung văn bản scan.
+            </div>
         </div>
 
         <div class="legal-box">
-            <div class="legal-title">📁 Văn Bản Mộc Đỏ Lưu Trữ</div>
-            <div class="legal-desc">Bản quét văn bản gốc lưu trực tiếp trên Google Drive:</div>
+            <div class="legal-title">📁 Văn Bản Liên Quan</div>
+            <div class="legal-desc">Bản scan quyết định giá dịch vụ là căn cứ cho bảng trên; quyết định giao nhiệm vụ của công ty được giữ theo liên kết trong mẫu gốc.</div>
 
             <div class="cta-group">
-                <a href="https://drive.google.com/file/d/1K1FPlQnhF8rbh3fOjaspR0cmbBEo285i/view?usp=drivesdk" target="_blank" class="btn-cta btn-open-drive">
-                    ☁️ Mở File QĐ 4996 Đơn Giá Hà Nội
-                </a>
-                <a href="https://drive.google.com/file/d/1K1FPlQnhF8rbh3fOjaspR0cmbBEo285i/view?usp=drivesdk" target="_blank" class="btn-cta btn-open-drive-dark">
-                    📄 Mở File QĐ Giao Việc Của Công Ty
+                <a href="https://drive.google.com/file/d/1Gc_4ujxVfDisUtTpFufokPMEorXWJBRB/view?usp=drivesdk" target="_blank" class="btn-cta btn-open-drive">
+                    📄 Mở Quyết Định Ban Hành Đơn Giá
                 </a>
             </div>
         </div>
